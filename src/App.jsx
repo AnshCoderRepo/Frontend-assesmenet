@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ProductList from "./components/ProductList";
+import CategoryGrid from "./components/CategoryGrid";
 import ProductDetail from "./components/ProductDetail";
 import Cart from "./components/Cart";
 import { CartProvider } from "./context/CartContext";
@@ -28,7 +29,7 @@ function App() {
             </nav>
           </header>
           <Routes>
-            <Route path="/" element={<ProductList />} />
+            <Route path="/" element={<><CategoryGrid /><ProductList /></>} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<div>Login Page (to be implemented)</div>} />
