@@ -1,7 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ProductList from "./components/ProductList";
+<<<<<<< Updated upstream
 import CategoryGrid from "./components/CategoryGrid";
+=======
+>>>>>>> Stashed changes
 import ProductDetail from "./components/ProductDetail";
 import Cart from "./components/Cart";
 import { CartProvider } from "./context/CartContext";
@@ -29,7 +32,11 @@ function App() {
             </nav>
           </header>
           <Routes>
+<<<<<<< Updated upstream
             <Route path="/" element={<><CategoryGrid /><ProductList /></>} />
+=======
+            <Route path="/" element={<ProductList />} />
+>>>>>>> Stashed changes
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<div>Login Page (to be implemented)</div>} />

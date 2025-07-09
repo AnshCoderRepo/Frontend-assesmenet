@@ -12,7 +12,11 @@
   transition: filter 300ms;
 }
 .logo:hover {
+<<<<<<< Updated upstream
   filter: drop-shadow(0 0 4em #646cffaa);
+=======
+  filter: drop-shadow(0 0 2em #646cffaa);
+>>>>>>> Stashed changes
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);

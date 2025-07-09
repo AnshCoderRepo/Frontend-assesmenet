@@ -16,7 +16,12 @@
    ```
    npm run dev
    ```
+<<<<<<< Updated upstream
 6. Open your browser and go to the URL shown in the terminal (usually http://localhost:3000).
+=======
+6. Open your browser and go to the URL shown in the terminal (
+   .
+>>>>>>> Stashed changes
 
 ## Features Implemented
 
