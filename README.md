@@ -17,7 +17,7 @@
    npm run dev
    ```
 <<<<<<< Updated upstream
-6. Open your browser and go to the URL shown in the terminal (usually http://localhost:3000](https://8jd91jt9-5173.inc1.devtunnels.ms/)).
+6. Open your browser and go to the URL shown in the terminal (usually http://localhost:3000](https://8jd91jt9-5173.inc1.devtunnels.ms/).
 =======
 6. Open your browser and go to the URL shown in the terminal (
    .
